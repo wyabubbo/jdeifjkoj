@@ -1,7 +1,9 @@
 services:
   - type: web
-    runtime: node
+    name: mathematics
+    env: node
     buildCommand: npm install
     startCommand: npm start
+    plan: free
 
 
